@@ -1,21 +1,23 @@
 {
-  "name": "server-blog",
-  "version": "0.0.1",
-  "description": "",
-  "main": "index.js",
+  "name": "mean",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon server.js"
+    "start": "node ./bin/www"
   },
-  "author": "belimposition",
-  "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.19.0",
+    "bcryptjs": "^2.4.3",
+    "bluebird": "^3.7.2",
+    "cookie-parser": "^1.4.5",
     "cors": "^2.8.5",
-    "express": "^4.17.1",
-    "mongodb": "^3.6.2"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.4"
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.6",
+    "mongoose-paginate": "^5.0.3",
+    "morgan": "~1.9.1",
+    "ssr-cookie": "^1.0.2"
   }
 }
